@@ -1,0 +1,16 @@
+Total genes processed: 10
+Parsing runtime: 36.48 seconds
+Execution runtime: 0.00 seconds
+Total exceptions: 10
+
+Top 3 most common exceptions:
+- Error: Failed final check. Unable to generate sequence without hairpins.: 10 occurrences
+
+Total validation failures: 0
+
+Validation Failures by Checker:
+- Forbidden Sequence Checker: 0 occurrences
+- Hairpin Checker: 0 occurrences
+- Codon Usage Checker: 0 occurrences
+- Promoter Checker: 0 occurrences
+- Translation/Completeness Checker: 0 occurrences

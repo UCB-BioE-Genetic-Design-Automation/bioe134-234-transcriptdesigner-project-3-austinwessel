@@ -1,0 +1,110 @@
+Gene: glyA
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: pyrG
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: coaBC
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: XD40_1191
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: asd
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: carB
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: argJ
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: carA
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: nadE
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+
+Gene: map
+Error: Failed final check. Unable to generate sequence without hairpins.
+Traceback: Traceback (most recent call last):
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\tests\unit\designer\test_transcript_designer.py", line 108, in benchmark_proteome
+    transcript = designer.run(protein, ignores)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\berkeley\2024_fall\bioeng134\project3\bioe134-234-transcriptdesigner-project-3-austinwessel\genedesign\transcript_designer.py", line 183, in run
+    raise ValueError("Failed final check. Unable to generate sequence without hairpins.")
+ValueError: Failed final check. Unable to generate sequence without hairpins.
+
+

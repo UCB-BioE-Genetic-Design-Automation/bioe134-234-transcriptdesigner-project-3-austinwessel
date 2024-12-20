@@ -56,12 +56,19 @@ class CodonChecker:
         :return: Tuple containing a boolean, codon diversity, rare codon count, and CAI score.
         """
         if not cds:
+            #print(f"\n codon checker failing at the CDS check")
             return False, 0.0, 0, 0.0  # Return false for empty CDS
 
         # Calculate codon diversity
+        #codon_counts = Counter(cds)
+        #codon_diversity = len(codon_counts) / 62
+
+        # Scaling codon diversity
         codon_counts = Counter(cds)
+        unique_codons = len(codon_counts)
         total_codons = len(cds)
-        codon_diversity = len(codon_counts) / total_codons if total_codons > 0 else 0.0
+        max_possible_unique_codons = min(total_codons, 62)                  # for my small windows
+        codon_diversity = unique_codons / max_possible_unique_codons if total_codons > 0 else 0.0
 
         # Count rare codons
         rare_codon_count = sum(codon_counts[codon] for codon in self.rare_codons if codon in cds)
@@ -82,6 +89,9 @@ class CodonChecker:
         codons_above_board = (codon_diversity >= diversity_threshold and
                               rare_codon_count <= rare_codon_limit and
                               cai_value >= cai_threshold)
+        
+        #print(f"Test CodonChecker Output - Above Board: {codons_above_board}, "
+        #  f"Diversity: {codon_diversity}, Rare Codons: {rare_codon_count}, CAI: {cai_value}")
 
         return codons_above_board, codon_diversity, rare_codon_count, cai_value
 
